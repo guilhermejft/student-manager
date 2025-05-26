@@ -1,18 +1,29 @@
-## Getting Started
+# Student Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a basic Java console application for managing student records. It allows you to add, view, and search for students using a text-based menu.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- Add student (ID, name, age)
+- View all students
+- Search student by ID or name
+- Input validation and error handling
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Technologies Used
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+## How to Run
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Clone the repository:
+   git clone https://github.com/YOUR_USERNAME/student-management-system.git
+
+2. Navigate to the project directory:
+   cd student-management-system
+
+3. Compile the code:
+   javac src/*.java
+
+4. Run the application:
+   java -cp src Main
