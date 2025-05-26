@@ -17,7 +17,7 @@ This is a basic Java console application for managing student records. It allows
 ## How to Run
 
 1. Clone the repository:
-   git clone https://github.com/YOUR_USERNAME/student-management-system.git
+   git clone https://github.com/guilhermejft/student-manager.git
 
 2. Navigate to the project directory:
    cd student-management-system
